@@ -1,0 +1,221 @@
+body{
+    font-family: 'Caveat Brush', cursive;
+    width: 75%;
+    margin: 0 auto;
+}
+/* ------- TITLE ------- */
+.title{
+    background-image: url(../img/planche.jpg);
+    width: 100%;
+    height: 400px;
+}
+
+/* ------- HEADER ------- */
+
+header{
+    width: 40%;
+    float: left;
+    padding-top: 0.1em;
+    height: 10%;
+}
+
+header h1{
+    padding-left: 2em;
+    font-style: italic;
+}
+
+header .underline1{
+    font-size: 22px;
+}
+
+header hr{
+    width: 10%;
+    height: 0.4em;
+    float: left;
+    margin-left: 6em;
+    background-color: rgb(230, 23, 92);
+    border: none;
+}
+
+/* ------- NAV ------- */
+
+nav{
+    float: right;
+    font-family: sans-serif;
+    padding-top: 1em;
+    padding-right: 1em;
+    width: 48%;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    padding: 1em;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: rgb(230, 23, 92);
+}
+
+/* ------- IMAGE DU CERF ------- */
+
+.picture img{
+    width: 25%;
+    padding-top: 6em;
+    padding-right: 12em;
+}
+
+.triangle{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 150px solid rgb(230, 23, 92);
+    border-left : 150px solid transparent;
+    position: absolute;
+}
+
+i{
+    color: rgb(230, 23, 92);
+    padding-top: 5em;
+    padding-left: 19.5em
+}
+
+/* ------- SECTION ------- */
+/* --- our story --- */
+
+.story{
+    width: 25%;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+}
+
+.story h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.story hr{
+    width: 10%;
+    height: 0.4em;
+    background-color: rgb(230, 23, 92);
+    border: none;
+}
+
+.asperge{
+    float: right;
+    width: 73%;
+}
+
+.asperge img{
+    width: 100%;
+}
+
+.text-end{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(230, 23, 92);
+}
+
+/* --- fresh fare --- */
+
+.soap{
+    float: left;
+    width: 73%;
+}
+
+.soap img{
+    width: 100%;
+}
+
+.fare{
+    float: right;
+    width: 25%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.fare h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.fare hr{
+    width: 10%;
+    height: 0.4em;
+    background-color: rgb(230, 23, 92);
+    border: none;
+}
+
+.fare img{
+    width: 50%;
+    padding-left: 1em;
+}
+
+/* --- local distillation --- */
+
+.distillation{
+    width: 25%;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+}
+
+.distillation h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.distillation hr{
+    width: 10%;
+    height: 0.4em;
+    background-color: rgb(230, 23, 92);
+    border: none;
+}
+
+.distillation img{
+    width: 50%;
+    padding-left: 1em;
+}
+
+.moule{
+    float: right;
+    width: 73%;
+}
+
+.moule img{
+    width: 100%;
+}
+
+
+
+.egg img{
+    width: 100%;
+}
+
+/* ------- FOOTER ------- */
+
+
+footer .underline2{
+    font-size: 18px;
+}
+
+footer .adresse{
+    width: 48%;
+    float: left;
+}
+
+
+footer .network{
+    display: inline-block;
+    height: 10%;
+    width: 48%;
+}
+
+.network i{
+    float: right;
+    justify-content: space-around;
+}
+
+.clear{
+    clear: both;
+}

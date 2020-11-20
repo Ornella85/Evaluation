@@ -1,0 +1,35 @@
+body{
+    font-family: 'Caveat Brush', cursive;
+}
+
+table{
+    width: 300px;
+    margin: auto;
+}
+
+h1{
+    width: auto;
+    height: auto;
+}
+
+hr{
+    height: 15px;
+    width: 40px;
+    background-color: rgb(175, 32, 56);
+}
+
+p{
+
+    align: justify
+}
+
+
+
+
+
+
+
+h2{
+    width: auto;
+    height: auto;
+}

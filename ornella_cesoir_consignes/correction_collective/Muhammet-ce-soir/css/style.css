@@ -1,0 +1,212 @@
+body {
+    font-family: 'Caveat Brush', cursive;
+    background-color: #9fc5b6;
+}
+
+/* -------------- HEADER -------------- */
+
+header {
+    background-color: white;;
+    margin: 0 auto;
+    width: 50%;
+    height: 350px;
+    margin-top: 40px;
+    background-image: url(../img/back-header.jpg); /* Mettre une image de fond*/
+    background-repeat: no-repeat; /* Pour éviter que l'image se répète */
+}
+
+.image-header {
+    width: 150px;
+    position: relative;
+    top: 40px;
+    left: 230px;
+}
+
+h1 {
+    text-transform: uppercase; /* Transforme les mots en majuscule */
+    font-size: 26px;
+    color: #373538f7;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    border-bottom: 5px solid #e71d60;
+    width: 5%;
+    display: inline;
+}
+
+/* --------------- NAV ---------------- */
+
+nav a {
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 550px;
+    bottom: 20px;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.triangle {
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 110px solid #d24176;
+    border-left : 100px solid transparent;
+    opacity: 0.6;
+    position: relative;
+    top: 50px;
+    left: 345px;
+}
+
+/* ------------- CONTAINER -------------- */
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+    background-color: white;
+    background-image: url(../img/back-section.jpg);
+}
+
+/* ------- SECTION ASPERGE --------  */
+
+.image-asperge {
+    float: right;
+    width: 520px;
+}
+
+.titre-asperge {
+    text-align: center;
+    text-transform: uppercase; /* Permet de transformer le text en majuscule */
+    letter-spacing: 3px;
+    font-family: arial;
+    padding-top: 80px;
+    border-bottom: 5px solid #e71d60;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.paragraphe-asperge {
+    text-align: center;
+    font-size: 13px;
+}
+
+.texte-rose {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ee759d;
+}
+
+/* ------- FRESH FARE --------  */
+
+.image-fresh {
+    float: left;
+    width: 520px;
+}
+
+.titre-fresh {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase; /* Permet de transformer le text en majuscule */
+    letter-spacing: 1px;
+    font-family: arial;
+    padding-top: 140px;
+    border-bottom: 5px solid #e71d60;
+    display: inline-block;
+    margin-left: 60px;
+    background-image: url(../img/graines_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center; /* Positionne l'image au centr */
+    background-size: 100px;
+}
+
+.paragraphe-fresh {
+    text-align: center;
+    font-size: 13px;
+}
+
+/* ------- LOCAL DISTILLATION --------  */
+
+.image-local {
+    float: right;
+    width: 520px;
+}
+
+.titre-local {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase; /* Permet de transformer le text en majuscule */
+    letter-spacing: 1px;
+    font-family: arial;
+    padding-top: 120px;
+    border-bottom: 5px solid #e71d60;
+    display: inline-block;
+    margin-left: 40px;
+    background-image: url(../img/graines_02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+}
+
+.paragraphe-local {
+    text-align: center;
+    font-size: 13px;
+}
+
+/* ------- SECTION PHOTO OEUF --------  */
+
+.oeuf {
+    width: 100%;
+}
+
+/* ------- FOOTER --------  */
+
+footer {
+    background-image: url(../img/back-section.jpg);
+    height: 250px;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.titre-footer {
+    font-size: 26px;
+    color: #373538f7;
+    text-transform: uppercase;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    border-bottom: 5px solid #e71d60;
+    width: 5%;
+    display: inline;
+}
+
+.text-footer {
+    font-size: 10px;
+    margin: 0;
+    text-transform: uppercase;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-weight: bold;
+}
+
+.numero {
+    font-size: 10px;
+    margin: 0;
+    position: relative;
+    top: 130px;
+    left: 50px;
+}
+
+footer i {
+    position: relative;
+    top: 100px;
+    left: 700px;
+    color: #e43c81;
+}

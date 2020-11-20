@@ -1,0 +1,86 @@
+
+
+*{
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 700;
+}
+body{
+    width: 1024px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 15%;
+    margin: 10% auto 5%;
+    background-image: url(../img/background\ img.jpg);
+    position: relative;
+}
+
+
+header nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: auto 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-size: 1.4rem;
+    font-weight: 500;
+    height: 90px;
+    transition-delay: 1ms;  
+}
+nav ul li a:hover{
+    color: rgb(155, 88, 50);
+    font-size: 30px;
+}
+section{
+    width: 100%;
+    display: inline-block;
+    padding-top: 0 ;
+}
+.plat{
+    margin: 0;
+    width: 35%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+#premier .plate:first-child, #deuxieme .plate:last-child, #trois .plate:first-child{
+    padding: 3%;
+    width: 50%;
+}
+#quatre img{
+     width: 1024px;
+     height: 483px;
+}
+.plat img{
+    width: 660px;
+    height: auto;
+}
+.soir{
+    font-size: 3em;
+}
+
+.moule{
+    margin: 0;
+    width: 35%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    text-align: left;
+}
+.moule img{
+    width: 660px;
+    height: auto;
+    float: right;
+}
