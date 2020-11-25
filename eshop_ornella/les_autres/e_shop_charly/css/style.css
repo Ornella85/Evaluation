@@ -1,0 +1,254 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+/* ----- HEADER ----- */
+
+/* ----- bannière ----- */
+
+.baniere{
+    background-color: rgb(54, 52, 52);
+    color: white;
+    width: 100%;
+}
+
+.satisfait{
+    float: left;
+    padding-left: 1em;
+}
+
+.telephone{
+    text-align: center;
+}
+
+.paiement{
+    text-align: right;
+}
+
+/* ----- head ----- */
+
+header{
+    background-image: url(../img/fond.png);
+    height: 350px;
+}
+
+.logo{
+    padding: 2em;
+    float: left;
+}
+
+.compte{
+    float: right;
+    padding: 1em;
+    font-size: 10px;
+    height: 100px;
+}
+
+.compte1{
+    float: left;
+    padding: 1em;
+}
+
+.compte2{
+    border-bottom: 1px solid darkgray;
+    padding: 1em;
+}
+
+.compte3{
+    float: left;
+    padding: 1em;
+}
+
+.compte4 img{
+    width: 25%;
+    padding: 1em;
+}
+
+/* ----- NAV ----- */
+
+nav{
+    background-image: url(../img/fond.png);
+    padding-top: 15em;
+    padding-left: 1em;
+}
+
+nav a{
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+}
+
+#site-search{
+    width: 6%;
+}
+
+nav button{
+    background-color: gray;
+    color: white;
+}
+
+/* ----- MAIN ----- */
+
+/* ----- Diapo ----- */
+
+#carouselExampleCaptions{
+    width: 70%;
+    float: left;
+}
+
+.carrelage{
+    width: 25%;
+    height: 100px;
+    float: right;
+    padding-bottom: 1em;
+}
+
+.carrelage img{
+    width: 100%;
+}
+
+.carrelage p{
+    background-color: rgb(246, 39, 117);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bathroom{
+    width: 25%;
+    height: 100px;
+    float: right;
+    padding-top: 8em;
+}
+
+.bathroom img{
+    width: 100%;
+}
+
+.bathroom p{
+    background-color: rgb(246, 39, 117);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ----- Icones ----- */
+
+.icones{
+    width: 100%;
+    float: left;
+    color: gray;
+}
+
+.cadenas{
+    float: left;
+    padding: 1em;
+}
+
+.livraison{
+    float: left;
+    padding: 1em;
+}
+
+.smiley{
+    float: left;
+    padding: 1em;
+}
+
+.anticasse{
+    float: left;
+    padding: 1em;
+}
+
+.anticasse{
+    float: left;
+    padding: 1em;
+}
+
+.fleche{
+    float: left;
+    padding: 1em;
+    padding-left: 12em;
+}
+
+.euro{
+    float: right;
+    width: 25%;
+}
+
+.clear{
+    clear: both;
+}
+
+/* ----- PRODUIT ----- */
+
+.nosProduits{
+    width: 100%;
+    float: left;
+    font-size: 12px;
+}
+
+h1{
+    background-color: rgb(246, 39, 117);
+    color: white;
+    padding: 0.5em;
+    width: 30%;
+    font-size: 16px;
+}
+
+.prod1{
+    width: 25%;
+    height: 200px;
+    float: left;
+    padding-left: 10em;
+}
+
+.prod2{
+    width: 25%;
+    height: 200px;
+    float: left;
+    padding: 10em;
+}
+
+.prod3{
+    width: 25%;
+    height: 200px;
+    float: left;
+    padding: 10em;
+}
+
+.prod4{
+    width: 25%;
+    height: 200px;
+    float: left;
+    padding: 10em;
+}
+
+.prod5{
+    width: 25%;
+    height: 200px;
+    float: left;
+    padding: 10em;
+}
+
+.prod6{
+    width: 25%;
+    height: 200px;
+    float: left;
+    padding: 10em;
+}
+
+.info{
+    padding-top: 140em;
+}

@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.entete {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+.entete p {
+    color: white;
+    margin:  3px;
+}
+
+/* ************** HEADER *************** */
+
+header {
+    height: 200px;
+}
+
+.img-logo { 
+    padding-top: 10px;
+    padding-left: 90px;
+}
+
+.paragraphe-logo {
+    padding-left: 90px;
+}
+
+.img-devis {
+    position: relative;
+    left: 900px;
+    bottom: 90px
+}
+
+.paragraphe-devis-gras {
+    font-weight: bold;
+    position: relative;
+    left: 955px;
+    bottom: 130px;
+}
+
+.paragraphe-devis-italic {
+    font-style: italic;
+    position: relative;
+    left: 955px;
+    bottom: 145px;
+    font-size: 13px;
+}
+
+.paragraphe-compte-gras {
+    font-weight: bold;
+    position: relative;
+    left: 1190px;
+    bottom: 205px;
+}
+
+.paragraphe-compte-italic {
+    font-style: italic;
+    position: relative;
+    left: 1200px;
+    bottom: 259px;
+    font-size: 13px;
+}
+
+.paragraphe-conseil-gras {
+    font-weight: bold;
+    position: relative;
+    left: 960px;
+    bottom: 300px;
+    
+}
+
+.paragraphe-conseil-italic {
+    font-style: italic;
+    position: relative;
+    left: 965px;
+    bottom: 310px;
+    font-size: 13px;
+}
+
+
+.paragraphe-panier-gras {
+    font-weight: bold;
+    position: relative;
+    left: 1190px;
+    bottom: 375px;
+}
+
+.paragraphe-panier-italic {
+    font-style: italic;
+    position: relative;
+    left: 1190px;
+    bottom: 440px;
+    font-size: 13px;
+}
+
+.img-compte {
+    position: relative;
+    left: 1300px;
+    bottom: 245px
+}
+
+.img-conseil {
+    position: relative;
+    left: 910px;
+    bottom: 250px
+}
+
+.img-panier {
+    position: relative;
+    left: 1300px;
+    bottom: 415px;
+    width: 55px;
+}
+
+
+/* ************** NAV *************** */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(233, 230, 230, 0.712);
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-right: 1 px solid black;
+    font-weight: bold;
+}
+
+.fa-home {
+    font-size: 24px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+/* ************** CAROUSEL *************** */
+
+/* .carousel {
+
+} */
+
+.img-carousel {
+    float: left;
+    width: 55%;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.fa-chevron-left {
+    background-color: #f62775;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    right: 850px;
+    top: 230px;
+}
+
+.fa-chevron-right {
+    background-color: #f62775;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    right: 100px;
+    top: 230px;
+}
+
+.petite-img-carousel {
+    width: 300px;
+}
+
+.petite-img-carousel2 {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 122px;
+}
+
+.carousel p {
+    position: relative;
+    right: 800px;
+    top: 430px;
+    color: white;
+}
+
+.fa-square {
+    position: relative;
+    right: 200px;
+    top: 335px;
+    width: 20px;
+    font-size: 20px;
+    color: white
+}
+
+.carousel a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #f62775;
+    color: white;
+    position: relative;
+    right: 220px;
+    top: 75px;
+    font-size: 13px;
+}
+
+/* ************** SECTION PAIEMENT *************** */
+
+h2{
+    background-color: #f62775;
+    color: white;
+    font-size: 16px;
+    display: inline;
+    padding: 15px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.paiement {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 100px;
+    color: grey;
+}
+
+.paiement2 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 30px;
+    color: grey;
+}
+
+.paiement3 {
+    color: grey;
+    position: relative;
+    left: 1000px;
+    bottom: 90px;
+}
+
+.paiement i {
+    font-size: 24px;
+}
+
+.paiement2 i {
+    font-size: 24px;
+}
+
+.paiement3 i {
+    font-size: 24px;
+}
+
+/* ************** SECTION PRODUITS *************** */
+
+.section-produit {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.section-produit article {
+    border: 1px solid grey;
+}
+
+.section-produit p:nth-of-type(1) {
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.prix {
+    text-align: center;
+    color: #f62775;
+    font-weight: bold;
+}
+
+/* ************** SECTION ESHOP *************** */
+
+.section-eshop {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #616161;
+    border: 1px solid black;
+}
+
+.section-eshop article {
+    margin-top: 50px;
+    border-right: 1px solid grey;
+    width: 100%;
+}
+
+h3 {
+    background-color: #f62775;
+    color: white;
+    font-size: 16px;
+    display: inline;
+    padding: 15px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.section-eshop i {
+    font-size: 24px;
+    color: white;
+    background-color: #f62775;
+    padding: 8px;
+    margin-left: 10px;
+} 
+
+.section-eshop p {
+    color: rgba(236, 236, 236, 0.733);
+}
+
+.section-eshop p:nth-of-type(1) {
+    font-weight: bold;
+    color: white;
+}
+
+.section-eshop p:nth-of-type(3) {
+    font-weight: bold;
+    color: white;
+}
+
+.section-eshop p:nth-of-type(6) {
+    font-weight: bold;
+    color: white;
+}
