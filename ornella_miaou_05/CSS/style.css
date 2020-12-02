@@ -1,0 +1,96 @@
+*{
+    font-family: 'Shadows Into Light', cursive;
+    margin: auto;
+}
+
+
+/* *********  MAIN ********* */
+main{
+    height: 900px;
+    width: 50%;
+    margin-top: 30px;
+    background-color: rgb(40, 56, 120) ;
+}
+
+h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/* ********* LIGNE 1 - 2 - 3  ********* */
+
+.chat-chasse, .chat-dort, .chat-leche, .chat-chante, .chat-cache, .chat-faim, .chat-grignote, .trop-mange, .chat-ninja, .clear{
+    margin: 40px;
+    padding: 20px;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+/* ********* LIGNE 1 ********* */
+
+.ligne1{
+    overflow: hidden;
+    height: 240px;
+}
+.ligne1 p{
+    color: white;
+    text-align: center;
+}
+
+.chat-chasse, .chat-dort, .chat-leche{
+    float: left;
+    transform: translate(100px, 0px);
+}
+
+.chat-chasse img, .chat-dort img, .chat-leche img{
+    height: 150px;
+}
+
+/* ********* LIGNE 2 ********* */
+
+.ligne2{
+    overflow: hidden;
+    height: 240px;
+}
+.ligne2 p{
+    color: white;
+    text-align: center;
+}
+
+.chat-chante, .chat-cache, .chat-faim{
+    float: left;
+    transform: translate(55px, 10px);
+}
+
+.chat-chante img, .chat-cache img, .chat-faim img{
+    height: 140px;
+}
+
+/* ********* LIGNE 3 ********* */
+
+.ligne3{
+    overflow: hidden;
+    height: 240px;
+}
+.ligne3 p{
+    color: white;
+    text-align: center;
+}
+
+.chat-grignote, .trop-mange, .chat-ninja{
+    float: left;
+    transform: translate(40px, 0px);
+}
+
+.chat-grignote img, .trop-mange img, .chat-ninja img{
+    height: 125px;
+}
+
+
+/* Clear both n'est pas utile puisque overflow : hidden a été utilisé sur chaque section */

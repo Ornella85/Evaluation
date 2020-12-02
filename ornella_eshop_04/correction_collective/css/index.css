@@ -1,0 +1,482 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/***********BARRE D'INFORMATION*************/
+
+.barreinfo{
+    width: 100%;
+    height: 25px;
+    background-color: rgb(126, 126, 126);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+/*************************HEADER*******************************/
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+}
+
+
+/*****LOGO********/
+.paralogo{
+    font-size: 15px;
+}
+
+.sectionlogo{
+    width: 50%;
+    height: 100%;
+}
+
+
+/*****section panier compte devis appel******/
+
+.sectionconsilpanier{
+    position: absolute;
+    float: right;
+    top: 50px;
+    right: 0;
+    width: 400px;
+}
+
+.articledeviscompte{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+
+.articleconseilpanier{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+/*****************IMG head*************/
+.imgpanier {
+    width: 20px;
+    height: 20px;
+}
+
+.imgdevi{
+    width: 20px;
+    height: 20px;
+}
+
+.imgcompte{
+    width: 20px;
+    height: 20px;
+}
+
+.imgconseil{
+    width: 20px;
+    height: 20px;
+}
+
+/*************nav*****************/
+
+nav {
+    width: 100%;
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid black;
+    top: 0;
+    border-bottom: 1px solid black;
+
+}
+
+nav a{
+    text-decoration: none;
+    padding: 50px;
+    color: black;
+}
+
+/*****caroussel*******/
+
+.sectioncarouimg{
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+.carousselcustom{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/***ARTICLE PARQUET & CARRELAGE ******/
+
+.articlegenecarparq{
+    width: 30%;
+    margin-top: 50px;
+    height: 505px;
+}
+
+.articlevoircarrelarge{
+    background-image: url(../img/carrelage1.jpg);
+    height: 50%;
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+.article-voir-parquet{
+    background-image: url(../img/carrelage8.jpg);
+    height: 50%;
+    width: 80%;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+/**********Paragraphe de l'image***********/
+
+.paraVcarrelage{
+    background-color: rgb(255, 124, 179);
+    text-align: center;
+    font-size: 15px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 221px;
+}
+
+.paVparquet{
+    background-color: rgb(255, 124, 179);
+    text-align: center;
+    font-size: 15px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 221px;
+}
+
+
+.clear{
+    clear: both;
+}
+
+/* **************** SECTION SERVICES PROPOSÉS **************** */
+
+.paiment1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: grey;
+    transform: translate(95px);
+    margin-top: 350px;
+}
+
+
+
+/*****ARTICLEEINFO2*********/
+
+.articleinfo2{
+    width: 80%;
+    display: flex;
+    height: 120px;
+    font-weight: bolder;
+}
+
+.articlecamionechange{
+    width: 80%;
+    display: flex;
+    height: 120px;
+    float: left;
+}
+.facilitepaiement{
+      width: 18%;
+      float: right;
+      position: absolute;
+      top:850px;
+      right: 15px;
+      font-weight: bolder;
+      font-size: 20px;
+}
+/******************a revenir 30min de la fin***********/
+
+
+/***********ARTICLE**********/
+.sectionarticle{
+    width: 100%;
+    height: 600px;
+}
+
+.troipremierarticle{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.troisecondarticle{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.triangle{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 50px solid deeppink;
+    border-left : 30px solid transparent;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: -18.5vh ;
+    left: 22vh;
+   }
+
+
+.nosproduits h3{
+    background-color:  deeppink;
+    width: 20vh;
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    padding: 8px;
+    text-align: center;
+
+}
+
+.nosproduits hr{
+    margin-top: -20px;
+}
+
+hr{
+    clear: both;
+}
+    
+
+/**************ICI image articmle de carrelage SECTION 1***********/
+
+
+/***********Article1**********/
+
+.article1{
+    width: 25%;
+    height: 80%;
+    margin-left: 5%;
+    height: 450px;
+    border: 1px solid rgb(134, 134, 134);
+}
+
+
+.imgcarrelage1{
+    width: 100%;
+    height:250px;
+    background-image: url(../img/carrelage6.jpg);
+}
+
+.imgfontcar{
+    width: 100%;
+}
+
+.pararose{
+    color: deeppink;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/*Article 2**************************/
+
+
+.article2{
+    width: 25%;
+    height: 80%;
+    margin-left: 5%;
+    height: 450px;
+    border: 1px solid rgb(134, 134, 134);
+}
+
+
+.imgcarrelage2{
+    width: 100%;
+    height:250px;
+    background-image: url(../img/carrelage9.jpg);
+}
+
+.imgfontcar{
+    width: 100%;
+}
+
+.pararose{
+    color: deeppink;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/******************Article 3************************/
+
+.article3{
+    width: 25%;
+    margin-left: 5%;
+    height: 450px;
+    border: 1px solid rgb(134, 134, 134);
+}
+
+
+.imgcarrelage3{
+    width: 100%;
+    height:250px;
+    background-image: url(../img/carrelage10.jpg);
+}
+
+.imgfontcar{
+    width: 100%;
+}
+
+.pararose{
+    color: deeppink;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/**************ICI image articmle de carrelage SECTION 2***********/
+
+.sectionarticle2{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    margin-top: 200px;
+}
+
+
+/***********ARTICLE**********/
+.sectionarticle{
+    width: 100%;
+    height: 600px;
+}
+
+.troipremierarticle{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.troisecondarticle{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+/**************ICI image articmle de carrelage SECTION 2***********/
+
+
+/***********Article4**********/
+
+.article4{
+    width: 25%;
+    height: 80%;
+    margin-left: 5%;
+    height: 450px;
+    border: 1px solid rgb(134, 134, 134);
+}
+
+
+.imgcarrelage4{
+    width: 100%;
+    height:250px;
+    background-image: url(../img/carrelage6.jpg);
+}
+
+.imgfontcar{
+    width: 100%;
+}
+
+.pararose{
+    color: deeppink;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/*Article 5**************************/
+
+
+.article5{
+    width: 25%;
+    height: 80%;
+    margin-left: 5%;
+    height: 450px;
+    border: 1px solid rgb(134, 134, 134);
+}
+
+
+.imgcarrelage5{
+    width: 100%;
+    height:250px;
+    background-image: url(../img/carrelage9.jpg);
+}
+
+.imgfontcar{
+    width: 100%;
+}
+
+.pararose{
+    color: deeppink;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/******************Article 6************************/
+
+.article6{
+    width: 25%;
+    margin-left: 5%;
+    height: 450px;
+    border: 1px solid rgb(134, 134, 134);
+}
+
+
+.imgcarrelage6{
+    width: 100%;
+    height:250px;
+    background-image: url(../img/carrelage10.jpg);
+}
+
+.imgfontcar{
+    width: 100%;
+}
+
+.pararose{
+    color: deeppink;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/*********sectionbaspage**********/
+
+.sectionbaspage{
+    width: 1300px;
+    height: 500px;
+    background-color: rgb(90, 90, 90);
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+
+
+
+
+/*12h55 pas le temps ************/
+
+footer{
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    height: 1300px;
+    margin-top: 1000px;
+}
