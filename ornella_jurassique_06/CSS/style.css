@@ -1,0 +1,184 @@
+/*  ****************** BODY ****************** */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*  ********************* HEADER ********************* */
+header{
+   height: 900px;
+   width: 100%;
+   /* background-image: url(/ornella_jurassique_06/img/dinosaure.jpg); */
+}
+
+.dinosaure{
+    width: 100%;
+}
+
+.logo{
+    position: absolute;
+    top: 130px;
+    right: 550px;
+}
+
+.bandeau{
+    position: absolute;
+    bottom: -410px;
+    right: 9px;
+}
+
+
+/*  ********************* NAV ********************* */
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 5vh;
+    height: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.activ{
+    background-color: #1C5F81;
+    padding: 10px;
+    height: 20px;
+
+}
+
+nav a:hover{
+    border: 1px solid white;
+    height: 20px;
+    padding: 10px;
+}
+
+.activ:hover{
+     background-color: white;
+     color: #1C5F81;
+}
+
+/*  ********************* MAIN ********************* */
+main{
+    margin: 30%;
+}
+
+/*  ********************* SECTION ********************* */
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.textecentre{
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 5px;
+}
+
+.reserver{
+    border: 20px solid #1C5F81;
+    background-color:#1C5F81; ;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    line-height: 110px;
+}
+
+.reserver:hover{
+    background-color: white;
+    color: #1C5F81;
+    border: 20px solid #ffffff;
+    background-color:#ffffff;
+}
+
+
+.entree:hover{
+    z-index: 1;
+    transform: scale(1.5);
+}
+
+/*  ********************* SECTION Tarif ********************* */
+.tarifhoraires, .commentvenir{
+     width: 40%;
+     margin: 20px;
+     float: left;
+}
+
+.tarifhoraires h2, .commentvenir h2{
+    letter-spacing: 2px;
+}
+
+
+.commentvenir img{
+    width: 12%;   
+}
+
+.acheter{
+    border: 20px solid #1C5F81;
+    background-color:#1C5F81; ;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    line-height: 110px;
+}
+
+.acheter:hover{
+    background-color: white;
+    color: #1C5F81;
+    border: 20px solid #ffffff;
+    background-color:#ffffff;
+}
+
+
+
+/*  ********************* SECTION Partenaire ********************* */
+
+.partenaires h2{
+    text-align: center;
+    font-size: 50px;
+    padding: 80px;
+}
+
+.tele{
+    display: flex;
+    justify-content: space-between;
+    width: 140%;
+    color: grey;
+    transform: translate(-10%, -10%);
+}
+
+/*  ********************* FOOTER ********************* */
+footer{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+}
+
+footer ul{
+    display: inline-block;
+    list-style-type: none; 
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    margin: 80px;
+}
+footer img{
+    position: relative;
+    left: 800px;
+    top: 50px;
+
+}
+
+.clear{
+    clear: both;
+}

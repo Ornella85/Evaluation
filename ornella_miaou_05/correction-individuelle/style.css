@@ -1,0 +1,41 @@
+*{
+    font-family: 'Shadows Into Light', cursive;
+    margin: auto;
+}
+
+/* *********  MAIN ********* */
+main{
+    width: 50%;
+    margin-top: 30px;
+    background-color: rgb(40, 56, 120);
+}
+
+h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 500;
+    text-align: center;
+}
+
+section{
+    width: 90%;
+    margin: auto;
+}
+
+figure{
+    float: left;
+    width: 22% ;
+    /* margin: calc(22% / 4); */
+    margin: 1vh 2vw;
+   
+}
+
+.clear{
+    clear: both;
+}
+
+figcaption{
+    color: white;
+    font-size: 25px;
+}
+
