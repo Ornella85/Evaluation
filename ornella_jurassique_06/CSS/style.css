@@ -7,7 +7,7 @@ body{
 header{
    height: 900px;
    width: 100%;
-   /* background-image: url(/ornella_jurassique_06/img/dinosaure.jpg); */
+   background-image: url("C:/xampp/htdocs/Cours-poles/Evaluation/ornella_jurassique_06/img/dinosaure.jpg"); 
 }
 
 .dinosaure{
